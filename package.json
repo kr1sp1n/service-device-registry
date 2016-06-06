@@ -1,0 +1,31 @@
+{
+  "name": "service-device-registry",
+  "version": "1.0.0",
+  "description": "Register and auth by device as a service",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kr1sp1n/service-device-registry.git"
+  },
+  "author": "kr1sp1n <krispin@posteo.de> (http://kr1sp1n.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kr1sp1n/service-device-registry/issues"
+  },
+  "homepage": "https://github.com/kr1sp1n/service-device-registry#readme",
+  "dependencies": {
+    "body-parser": "1.15.1",
+    "express": "4.13.4",
+    "express-jwt": "3.4.0",
+    "jsonwebtoken": "7.0.0",
+    "mongoose": "4.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "1.9.2"
+  }
+}
